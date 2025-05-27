@@ -1,7 +1,7 @@
-const student = {
-    firstName: "Deniel",
-    lastName: "McCarthy",
-    age: 27,
-    courses: [ "Mahtematics", "Physics", "Chemistry" ]
+const dog = {
+  name: "Dog",
+  sound: "Woof"
 };
-console.log(student)
+let tacsa;
+tacsa.__proto__ = dog;
+console.log(tacsa); // Dog
