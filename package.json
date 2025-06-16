@@ -11,10 +11,12 @@
     "prettier": "^3.5.3"
   },
   "scripts": {
-    "lint": "npx eslint --fix ."
+    "lint": "npx eslint --fix .",
+    "test": "jest"
   },
   "dependencies": {
     "axios": "^1.10.0",
+    "fs": "^0.0.1-security",
     "jest": "^30.0.0"
   }
 }
